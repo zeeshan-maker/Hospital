@@ -1,0 +1,138 @@
+@media (max-width:1199.5px){
+    /* custom css  */
+    .card{
+        padding: 2.5rem 1.875rem;
+    }
+   
+    /* Header  */
+    .header_wrapper .navbar-nav .nav-link{
+        font-size: 1rem;
+    }
+    /* top banner */
+    /* about */
+    .about_wrapper .card{
+        width: 100%;
+    }
+    /* service  */
+    .services_wrapper .card{
+        text-align: center;
+        padding: 1.875rem 1.25rem;
+    }
+}
+
+@media (max-width:991px) {
+      /* custom css  */
+      .warpper{
+        padding: 3.125rem 0;
+      }
+      .main-btn{
+        font-size: .875rem;
+    }
+    h1{
+        font-size: 2.8125rem;
+        margin-bottom: .625rem;
+    }
+    h2{
+        font-size: 1.875rem; 
+    }
+    h3{
+        font-size: 1.5625rem;
+    }
+    h4{
+        font-size: 1.25rem;
+    }
+    h5{
+        font-size: 1.125rem;
+    }
+    p{
+        font-size: .875rem;
+        line-height: 1.35rem;
+    }
+    .card{
+        padding: 1.875rem 1rem;
+    }
+       /* 2 Navbar */
+       .header-scrolled{
+        height: auto;
+       }
+       .header_wrapper .menu-navbar-nav{
+        text-align: center;
+       }
+
+       .header_wrapper .nav-item .nav-link{
+            margin-top: .9375rem;
+       }
+    /*  banner */
+    .banner_wapper p{
+        max-width: 100%;
+    }
+   
+    /* service  */
+    .services_wrapper .card{
+        text-align: center;
+        padding: 1.875rem 0.875rem;
+    }
+    /* blog  */
+    .blog_wrapper .card .blog-content{
+        padding: 1.875rem 0.625rem;
+    }
+    
+}
+
+@media (max-width:767px) {
+    /* custom css  */
+    .main-btn{
+        font-size: .875rem;
+    }
+    h1{
+        font-size: 2.5rem;
+        margin-bottom: 2.5rem;
+    }
+    
+    h5{
+        font-size: 1.25rem;
+    }
+      /* service  */
+      .services_wrapper .card{
+        text-align: center;
+    }
+    /* blog  */
+    .blog_wrapper .card .blog-content{
+       margin: 0;
+    }
+    /* footer  */
+    .footer_wrapper>div{
+        padding: 0 1.875rem;
+    }
+}
+
+
+@media (max-width:360px) {
+    /* banner */
+    .home .icon-box img{
+        width: 5rem;
+        height: 5rem;
+    
+    }
+    /* Services  */
+    .services_wrapper .icon-box{
+        margin-bottom: .9375rem;
+    }
+    .services_wrapper .icon-box img{
+        width: 5rem;
+    }
+    
+    /* about  */
+    .about_wrapper .card{
+        padding: 1.25rem .3125rem;
+    }
+    .about_wrapper .about-clinic:nth-child(2),
+    .about_wrapper .about-clinic:nth-child(4){
+     padding-left: .625rem;
+
+}
+/* Team   */
+.team_wrapper .team-img img{
+    width: 10rem;  
+}
+}
